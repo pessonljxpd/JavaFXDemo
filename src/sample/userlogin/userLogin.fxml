@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+
+<GridPane alignment="CENTER" hgap="10" style="-fx-background-color: #14bc4c" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.userlogin.UserLoginController">
+   <children>
+       <TextField fx:id="username" promptText="用户名" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+       <PasswordField fx:id="password" promptText="密码" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+       <Button fx:id="login" prefHeight="23.0" prefWidth="163.0" text="登录" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+   </children>
+</GridPane>
